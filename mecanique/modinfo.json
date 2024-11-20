@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "mecanique",
+    "name": "mecanique",
+    "authors": [
+        "Jena_Thornwyrd"
+    ],
+    "description": "Lots of things allowing more mechanics.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.20.0"
+    }
+}
