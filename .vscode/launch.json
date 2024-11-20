@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": {
+    "name": "Launch VS",
+    "type": "clr",
+    "request": "launch",
+    "preLaunchTask": "Build (Debug)",
+    "program": "${workspaceFolder}/game/vintagestory/Vintagestory",
+    "args": [
+      "--openWorld", "test",
+      "--addModPath", "${workspaceFolder}/bin/Debug/net452",
+      "--addOrigin", "${workspaceFolder}/resources",
+      "--dataPath", "${workspaceFolder}/game/data",
+      "--logPath", "${workspaceFolder}/game/logs"
+    ],
+    "console":"internalConsole",
+    "internalCOnsoleOptions": "openOnSessionStart",
+    "requireExactSOurce": false
+  }
+}
